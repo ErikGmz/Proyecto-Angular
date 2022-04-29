@@ -6,21 +6,20 @@ import { Heroe } from '../heroe';
   providedIn: 'root'
 })
 export class HeroeService {
-
   private heroes:Heroe[] = HEROES;
 
-  constructor() { }
+  constructor() {}
 
-  getHeroes(): Heroe[]{
+  getHeroes(): Heroe[] {
     return this.heroes;
   }
 
-  getUnHeroe(posicion:number): Heroe{
+  getUnHeroe(posicion:number):Heroe {
     return this.heroes[posicion];
   }
 
-  searchUnHeroe(nomheroe: string):number{
-    let index = this.heroes.findIndex(p=> p.nombre === nomheroe);
+  searchUnHeroe(nomheroe: string):number {
+    let index = this.heroes.findIndex(p => p.nombre === nomheroe);
     return index;
   }
 }

@@ -10,17 +10,13 @@ import { HeroeService } from '../shared/heroe.service';
   styleUrls: ['./unheroe.component.css']
 })
 export class UnheroeComponent implements OnInit {
-
   @Input() heroe!: Heroe;
 
   constructor(public heroeService: HeroeService, public activatedRoute: ActivatedRoute) { 
-
     this.activatedRoute.params.subscribe(params => {
       this.heroe = heroeService.getUnHeroe(params['id']);
     })
   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

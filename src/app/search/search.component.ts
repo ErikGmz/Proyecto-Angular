@@ -12,7 +12,6 @@ import { HeroeService } from '../shared/heroe.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-
   nombreh: string="";
   indice: number=0;
   miheroe: Heroe={
@@ -35,8 +34,5 @@ export class SearchComponent implements OnInit {
     });
   }
 
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

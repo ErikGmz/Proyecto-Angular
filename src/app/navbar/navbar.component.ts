@@ -7,14 +7,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
   constructor(private router: Router) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   buscarUnHeroe(nombre: string){
     this.router.navigate(['/buscador',nombre]);
   }
-
 }
