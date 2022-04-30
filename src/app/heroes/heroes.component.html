@@ -1,4 +1,4 @@
-<h1 class="text-center"> Héroes <small> de Marvel y DC </small> </h1>
+<h1 class="text-center mb-4"> Héroes <small> de Marvel y DC </small> </h1>
 
 <div class="card-columns">
     <div class="card" *ngFor = "let h of misHeroes, let i=index">
@@ -7,8 +7,7 @@
             <h5 class="card-title"> {{h.nombre}} </h5>
             <p class="card-text"> {{h.bio}} </p>
             <p class="card-text"><small class="text-muted"> {{h.aparicion}} </small></p>
+            <a [routerLink]="['/heroe', i]" class="mb-3 btn btn-outline-success btn-block"> Ver más </a>
         </div>
-
-        <a [routerLink]="['/heroe',i]" class="mb-3 btn btn-outline-primary btn-block"> Ver más </a>
     </div>
 </div>

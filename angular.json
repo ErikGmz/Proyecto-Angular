@@ -28,12 +28,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/bootstrap/bootstrap-4.6.1-dist/css/bootstrap.min.css"
+              "src/bootstrap/bootstrap-4.6.1/css/bootstrap.css"
             ],
             "scripts": [
-              "src/bootstrap/bootstrap-4.6.1-dist/js/bootstrap.min.js",
-              "src/bootstrap/bootstrap-4.6.1-dist/js/jquery-3.5.1.min.js",
-              "src/bootstrap/bootstrap-4.6.1-dist/js/popper-1.16.1.min.js"
+              "src/bootstrap/bootstrap-4.6.1/js/jquery.slim.min.js",
+              "src/bootstrap/bootstrap-4.6.1/js/popper.min.js",
+              "src/bootstrap/bootstrap-4.6.1/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -99,14 +99,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/bootstrap/bootstrap-4.6.1-dist/css/bootstrap.min.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "src/bootstrap/bootstrap-4.6.1-dist/js/bootstrap.min.js",
-              "src/bootstrap/bootstrap-4.6.1-dist/js/jquery-3.5.1.min.js",
-              "src/bootstrap/bootstrap-4.6.1-dist/js/popper-1.16.1.min.js"
-            ]
+            "scripts": []
           }
         }
       }

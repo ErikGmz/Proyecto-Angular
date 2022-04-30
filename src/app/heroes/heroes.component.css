@@ -1,0 +1,6 @@
+/* Disposición en 5 columnas. */
+@media (min-width: 1px) {
+    .card-column {
+        column-count: 5;
+    }
+}
