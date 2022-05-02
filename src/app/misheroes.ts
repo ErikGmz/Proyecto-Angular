@@ -44,6 +44,48 @@ export const HEROES:Heroe[]=[
     casa: "Marvel"
   },
   {
+    nombre: "Super-Man",
+    bio: "Más rápido que una bala, más poderoso que una locomotora... El Hombre de Acero libra una batalla interminable por la verdad, la justicia y el estilo estadounidense. Desde su uniforme azul hasta su capa roja que fluye hasta el escudo S en su pecho, Superman es uno de los Superhéroes de DC más reconocibles y queridos de todos los tiempos. El Hombre de Acero es el máximo símbolo de la verdad, la justicia y la esperanza",
+    img: "assets/img/superman.webp",
+    aparicion: "1938-04-18",
+    casa: "DC"
+  },
+  {
+    nombre: "Viuda Negra",
+    bio: "Natasha nació en Stalingrado (ahora Volgogrado), Rusia. La primera y más conocida Viuda Negra, es una agente rusa entrenada como espía, artista marcial y francotiradora, y equipada con un arsenal de armas de alta tecnología, que incluye un par de armas energéticas montadas en la muñeca y apodada Piquete de la Viuda.",
+    img: "assets/img/viuda.webp",
+    aparicion: "1964-04-27",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Flash",
+    bio: "Jay Garrick era un estudiante universitario en 1938 que accidentalmente inhaló vapores de agua pesada después de tomar un descanso para fumar dentro de su laboratorio donde había estado trabajando.Como resultado, descubrió que podía correr a una velocidad sobrehumana y que tenía reflejos igualmente rápidos. Después de una breve carrera como estrella de fútbol americano universitario, se puso una camisa roja con un rayo y un estilizado casco de metal con alas (basado en imágenes de la deidad griega Hermes o Mercurio el dios romano), posterior a eso comenzó a luchar contra el crimen como el Flash.",
+    img: "assets/img/flash.webp",
+    aparicion: "1940-01-15",
+    casa: "DC"
+  },
+  {
+    nombre: "Capitan America",
+    bio: "El Capitán América viste un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil. El personaje es generalmente representado como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección humana por un suero experimental S.S.S. (Suero supersoldado) para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial.",
+    img: "assets/img/cap.webp",
+    aparicion: "1941-03-23",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Green Arrow",
+    bio: "Flecha Verde es un superhéroe justiciero que lucha contra el crimen con las artes marciales, tiro con arco y tecnología. En su identidad secreta es Oliver Queen, que vive en Cuidad Estrella como un rico playboy multimillonario y empresario convertido en político liberal franco.",
+    img: "assets/img/greenarrow.webp",
+    aparicion: "1941-09-19",
+    casa: "DC"
+  },
+  {
+    nombre: "Iron Man",
+    bio: "Tony Stark, es un multimillonario magnate empresarial estadounidense, playboy e ingenioso científico, quien sufrió una grave lesión en el pecho durante un secuestro en el Medio Oriente. Cuando sus captores intentan forzarlo a construir un arma de destrucción masiva crea, en cambio, una armadura para salvar su vida y escapar del cautiverio. Más tarde, Stark desarrolla su traje, agregando armas y otros dispositivos tecnológicos que diseñó a través de su compañía, Industrias Stark.",
+    img: "assets/img/ironman.webp",
+    aparicion: "1968-05-13",
+    casa: "Marvel"
+  },
+  {
     nombre: "Wolverine",
     bio: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
     img: "assets/img/wolverine.png",
