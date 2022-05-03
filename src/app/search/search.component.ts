@@ -16,19 +16,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  
-  nombreh: string="";
-  indice: number=0;
-  miheroe: Heroe={
-    nombre:"",
-    bio:"",
-    img:"",
-    aparicion:"",
-    casa:""
+  nombreh: string = "";
+  indice: number = 0;
+  miheroe: Heroe = {
+    nombre: "",
+    bio: "",
+    img: "",
+    aparicion: "",
+    casa: ""
   };
 
   constructor(private heroeService: HeroeService, private activatedRoute: ActivatedRoute,private router: Router) { 
-    
     this.activatedRoute.params.subscribe( params => {
       this.nombreh = params['nombreh'];
       this.indice = this.heroeService.searchUnHeroe(this.nombreh);
@@ -36,14 +34,14 @@ export class SearchComponent implements OnInit {
 
       if (this.indice != -1) {
         this.miheroe = this.heroeService.getUnHeroe(this.indice);
-      } else {
+      } 
+      else {
         setTimeout(() => {
           this.router.navigate(['/heroes'])
-        }, 2000);
+        }, 4000);
       }
     });
   }
 
   ngOnInit(): void {}
-
 }

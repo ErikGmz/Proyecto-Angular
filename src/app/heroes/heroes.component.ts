@@ -8,14 +8,14 @@ import { HeroeService } from '../shared/heroe.service';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
-  misHeroes: Heroe[]=[];
+  misHeroes: Heroe[] = [];
 
   constructor(public miservicio: HeroeService) {
-    console.log( "constructor de heroes")
+    console.log("Constructor de héroes.");
   }
 
   ngOnInit(): void {
-    console.log("ngOnInit de Heroes");
+    console.log("ngOnInit de héroes.");
     this.misHeroes = this.miservicio.getHeroes();
     console.log(this.misHeroes);
   }

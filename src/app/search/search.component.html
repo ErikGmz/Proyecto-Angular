@@ -1,9 +1,20 @@
-<div class="row animated fadeIn fast" *ngIf="indice == -1">
-    <div class="co-md-12">
-        <div class="alert alert-info" role="alert">
-            No existen resultados de {{nombreh}}.
+<ng-container *ngIf="indice == -1"> 
+    <h1 class="animated fadeIn font-italic"> Héroe desconocido <small> ????-??-?? </small> </h1>
+    <hr>
+
+    <div class="row animated fadeIn fast mt-4">
+        <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center">
+            <img width="300px" src="assets/img/desconocido.png" alt="" class="img-fluid mb-4">
+        </div>
+
+        <div class="col-md-8">
+            <h3> <span class="badge badge-secondary font-italic"> Héroe no encontrado </span> </h3>
+            <hr>
+            <p class="text-italic"> <span class="badge badge-danger p-2"> 
+                La descripción de este héroe es inexistente. 
+            </span> </p>
         </div>
     </div>
-</div>
+</ng-container>
 
-<app-unheroe *ngIf="indice != -1" [heroe]='miheroe'></app-unheroe>
+<app-unheroe *ngIf="indice != -1" [heroe]='miheroe'> </app-unheroe>

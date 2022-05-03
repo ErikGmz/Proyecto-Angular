@@ -1,7 +1,7 @@
 export interface Heroe {
-    nombre:string;
-    bio:string;
-    img:string;
-    aparicion:string;
-    casa:string;
+    nombre: string;
+    bio: string;
+    img: string;
+    aparicion: string;
+    casa: string;
 }

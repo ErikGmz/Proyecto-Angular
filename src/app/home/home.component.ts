@@ -7,10 +7,10 @@ import {formatDate} from '@angular/common';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  nombre!:string;
+  nombre !: string;
   sexo!:string;
-  correo!:string;
-  fechaNacimiento!:string;
+  correo!: string;
+  fechaNacimiento!: string;
 
   @ViewChild("formulario") formulario!: ElementRef;
 
@@ -18,20 +18,20 @@ export class HomeComponent implements OnInit {
     this.borrarDatos();
   }
 
-  ngOnInit():void {}
+  ngOnInit(): void {}
 
-  getFechaActual():string {
+  getFechaActual(): string {
     return formatDate(Date.now() - 315576000000,'yyyy-MM-dd','en-US');
   }
 
-  borrarDatos():void {
+  borrarDatos(): void {
     this.nombre = "";
     this.sexo = "";
     this.correo = "";
     this.fechaNacimiento = "";
   }
 
-  enviarDatos($event:any):void {
+  enviarDatos($event: any): void {
     if(this.nombre && this.sexo && this.correo && this.fechaNacimiento) {
       let datosUsuario = {
         nombre: this.nombre,

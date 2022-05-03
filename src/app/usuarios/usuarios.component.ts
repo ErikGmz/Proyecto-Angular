@@ -6,19 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./usuarios.component.css']
 })
 export class UsuariosComponent implements OnInit {
-  datosFans:Usuario[]=[];
-  constructor() { }
+  datosFans: Usuario[] = [];
+  
+  constructor() {}
 
   ngOnInit(): void {
-  this.recuperarDatos();
+    this.recuperarDatos();
   }
-  recuperarDatos(){
-     this.datosFans = JSON.parse(localStorage.getItem("datosFans")||"[]");
+
+  recuperarDatos() {
+    this.datosFans = JSON.parse(localStorage.getItem("datosFans") || "[]");
   }
 }
+
 export interface Usuario {
-  nombre:string;
-  sexo:string;
-  correo:string;
-  fechaNacimiento:Date;
+  nombre: string;
+  sexo: string;
+  correo: string;
+  fechaNacimiento: Date;
 }
