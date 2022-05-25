@@ -1,0 +1,143 @@
+{
+  "configVersion": 1,
+  "timestamp": 1653450697141,
+  "index": "https://erikgmz.github.io/Proyecto-Angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://erikgmz.github.io/Proyecto-Angular/index.html",
+        "https://erikgmz.github.io/Proyecto-Angular/main.2843a80a0cc396bb.js",
+        "https://erikgmz.github.io/Proyecto-Angular/manifest.webmanifest",
+        "https://erikgmz.github.io/Proyecto-Angular/polyfills.9d6063be4559c5f9.js",
+        "https://erikgmz.github.io/Proyecto-Angular/runtime.515b4ec4a74484f2.js",
+        "https://erikgmz.github.io/Proyecto-Angular/scripts.be41e28740b71911.js",
+        "https://erikgmz.github.io/Proyecto-Angular/styles.bc7df2fe9220a656.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://erikgmz.github.io/Proyecto-Angular/assets/A-64.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/favicon.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-128x128.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-144x144.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-152x152.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-192x192.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-384x384.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-512x512.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-72x72.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-96x96.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/aquaman.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/batman.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/cap.webp",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/comic.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/daredevil.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/dc.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/desconocido.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/flash.webp",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/greenarrow.webp",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/hulk.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/ironman.webp",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/linterna-verde.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/marvel.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina1.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina10.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina11.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina12.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina2.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina3.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina4.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina5.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina6.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina7.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina8.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina9.jpg",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/spiderman.png",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/superman.webp",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/viuda.webp",
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/wolverine.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://erikgmz.github.io/Proyecto-Angular/assets/A-64.png": "019d2d926054a43a06f00f2f1f7ed1efd9f7ae77",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/favicon.png": "019d2d926054a43a06f00f2f1f7ed1efd9f7ae77",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/aquaman.png": "6f888c972601d1e3795727399241409a39325a19",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/batman.png": "c79ba6ec0ff094183c56563c156eecb47c3b9969",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/cap.webp": "a21a7b4975129a52c2cfbdc5a06c635bfd1d5ef4",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/comic.jpg": "8906ef8142e7c5d9ec5a5fe7833a47fd607957e9",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/daredevil.png": "97bcb75391a39b9c56122e2f4eabe10feede01f5",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/dc.jpg": "c5736878c0fdf41b396a74ba1460a118d5d781b1",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/desconocido.png": "07db1556e6932d40857e82732fbc82aab446fe02",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/flash.webp": "d2beda5722eed50a98c12cca84f9c2f0aa569e1c",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/greenarrow.webp": "a618dd97efea4c8b530091fba47d87417f134f72",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/hulk.png": "af2ed8c7d4c25db3239204c7edee8d31fed2986b",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/ironman.webp": "95e1fde6c0dfc738aac1dfd9e4a81a3e135d921e",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/linterna-verde.png": "0943883c4a1e710be7f16b110c8f76ce84649c67",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/marvel.jpg": "67d1f07e47b39e13869ff43b4a3d29b22c6d98c2",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina1.jpg": "7ee84dfc15993546a364f850eab80f10a9c0834b",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina10.jpg": "5d7fa1d3ae69e3711aa6dc8d5b4ca33d8b709f38",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina11.jpg": "631198ad4b5d7362aae97c282ea8c286a1f4f2bc",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina12.jpg": "012f3a94b1f962aa0872b833dd04ce4e0112be09",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina2.jpg": "d0a23a62ed653d238cd2ba8ce64a83a0321e151d",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina3.jpg": "8e4c4d2671ec9cd9a27d2f3c5fabf233db05a06f",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina4.jpg": "be7faf53559e34ac3a0d289684e27401c1fe76cf",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina5.jpg": "e566084c103c297e3cb8ef550d98cf77824de126",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina6.jpg": "5638d93334d302c9af4f696a38b7eec148579038",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina7.jpg": "26bfa6dd462965e38d595769f5b4c8aeebf2a0aa",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina8.jpg": "2a5e411c4de695ad3b047d45ef54987f0bb2ed06",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/pagina9.jpg": "29baf0a855dec9c2140dfe739eef639b8fc5fe69",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/spiderman.png": "c22d275f2bea490cd1cc2828c65b5f5bfef1946a",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/superman.webp": "4802a130ccf3c8fd3cbd22928fdfae49c6243b63",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/viuda.webp": "68fbd34cdc2500b3262c3f9affc25c2f9184dffb",
+    "https://erikgmz.github.io/Proyecto-Angular/assets/img/wolverine.png": "c39dac4245c9b7c2f49c6bb380cf439df8f4c5c2",
+    "https://erikgmz.github.io/Proyecto-Angular/index.html": "8d9e6b062524329a3afcfb8d23b625525cce29b6",
+    "https://erikgmz.github.io/Proyecto-Angular/main.2843a80a0cc396bb.js": "9ee3305860a6c6528e4e3b2a61def0053591b8cb",
+    "https://erikgmz.github.io/Proyecto-Angular/manifest.webmanifest": "718b42ca6a0742ecc193d6cf0e6c870e0528bacc",
+    "https://erikgmz.github.io/Proyecto-Angular/polyfills.9d6063be4559c5f9.js": "ba3efc514c4d7ba16136fd674e552c333567c138",
+    "https://erikgmz.github.io/Proyecto-Angular/runtime.515b4ec4a74484f2.js": "786f33b24be07c56a96507cfaa2a1c6da74c58c0",
+    "https://erikgmz.github.io/Proyecto-Angular/scripts.be41e28740b71911.js": "eea8141c157e72d4a17d443e6d23d7352209b9a7",
+    "https://erikgmz.github.io/Proyecto-Angular/styles.bc7df2fe9220a656.css": "53a61f47ea46cf8f337d4116cb1f7392bb6dd975"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
