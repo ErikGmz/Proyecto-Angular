@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1653452922250,
+  "timestamp": 1653484668069,
   "index": "https://erikgmz.github.io/Proyecto-Angular/index.html",
   "assetGroups": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
