@@ -1,6 +1,6 @@
 {
-  "name": "ProyectoAngular",
-  "short_name": "ProyectoAngular",
+  "name": "Sitio sobre héroes",
+  "short_name": "Sitio Héroes",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
