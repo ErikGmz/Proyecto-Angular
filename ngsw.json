@@ -1,28 +1,10 @@
 {
   "configVersion": 1,
-  "timestamp": 1653485289101,
+  "timestamp": 1653486122357,
   "index": "https://erikgmz.github.io/Proyecto-Angular/index.html",
   "assetGroups": [
     {
       "name": "app",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "urls": [
-        "https://erikgmz.github.io/Proyecto-Angular/index.html",
-        "https://erikgmz.github.io/Proyecto-Angular/main.2843a80a0cc396bb.js",
-        "https://erikgmz.github.io/Proyecto-Angular/manifest.webmanifest",
-        "https://erikgmz.github.io/Proyecto-Angular/polyfills.9d6063be4559c5f9.js",
-        "https://erikgmz.github.io/Proyecto-Angular/runtime.515b4ec4a74484f2.js",
-        "https://erikgmz.github.io/Proyecto-Angular/scripts.be41e28740b71911.js",
-        "https://erikgmz.github.io/Proyecto-Angular/styles.bc7df2fe9220a656.css"
-      ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
@@ -67,8 +49,25 @@
         "https://erikgmz.github.io/Proyecto-Angular/assets/img/spiderman.png",
         "https://erikgmz.github.io/Proyecto-Angular/assets/img/superman.webp",
         "https://erikgmz.github.io/Proyecto-Angular/assets/img/viuda.webp",
-        "https://erikgmz.github.io/Proyecto-Angular/assets/img/wolverine.png"
+        "https://erikgmz.github.io/Proyecto-Angular/assets/img/wolverine.png",
+        "https://erikgmz.github.io/Proyecto-Angular/index.html",
+        "https://erikgmz.github.io/Proyecto-Angular/main.2843a80a0cc396bb.js",
+        "https://erikgmz.github.io/Proyecto-Angular/manifest.webmanifest",
+        "https://erikgmz.github.io/Proyecto-Angular/polyfills.9d6063be4559c5f9.js",
+        "https://erikgmz.github.io/Proyecto-Angular/runtime.515b4ec4a74484f2.js",
+        "https://erikgmz.github.io/Proyecto-Angular/scripts.be41e28740b71911.js",
+        "https://erikgmz.github.io/Proyecto-Angular/styles.bc7df2fe9220a656.css"
       ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
       "patterns": []
     }
   ],
