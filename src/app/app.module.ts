@@ -14,6 +14,8 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 import { VideoComponent } from './video/video.component';
 import { OtraComponent } from './otra/otra.component';
 import { DomseguroPipe } from './domseguro.pipe';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,13 @@ import { DomseguroPipe } from './domseguro.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
